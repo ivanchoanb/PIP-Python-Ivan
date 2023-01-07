@@ -4,7 +4,7 @@ from fastapi.responses import HTMLResponse
 
 app = FastAPI()
 
-@app.get('/')
+@app.get('/') #Sintaxis denominada decorador
 def get_list():
     return [1,2,3,]
 
